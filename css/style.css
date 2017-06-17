@@ -1,0 +1,142 @@
+header {
+
+background-color: #52ab92;
+min-height: 130px;
+color:white;
+width: 1340px;
+height: 200px;
+
+
+}
+
+.title_effect {
+
+font-family: Ubuntu;
+
+
+}
+
+.img1 {
+
+
+	width: 70px;
+height: 82px;
+}
+
+.img2 {
+
+
+	width: 80px;
+height: 86px;
+}
+.logo-1 {
+padding: 10px;
+padding-left: 0px;
+
+}
+.edit-1 {
+
+padding-top: 10px;
+
+
+
+}
+
+.edit-2 {
+
+background-color: #f6f6f6;
+min-height: 300px;
+width: 1340px;
+height: 200px;
+
+}
+.edit-3 {
+
+background-color: white;
+min-height: 290px;
+width: 1340px;
+height: 230px;
+
+}
+.edit-4{
+
+background-color: grey;
+min-height: 150px;
+width: 1340px;
+height: 150px;
+}
+
+
+
+.phone {
+
+
+	float:right;
+}
+  
+
+.logos {
+
+padding-top: 60px;
+ 
+
+}
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+
+position: relative;
+color: #383838;
+quotes: "\201C""\201D""\2018""\2019";
+
+}
+
+blockquote h4:before { 
+ display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+   
+} 
+blockquote h4:after { 
+    display: block;
+content: "\201D";
+font-size: 80px;
+position: relative;
+left: 65px;
+top: -20px;
+color: #7a7a7a;
+
+}
+.edit-5 {
+
+
+
+	margin-top: 30px;
+}
+
+.tasks {
+
+	padding-top: 20px;
+}
+footer {
+background-color: white;
+height: 50px;
+
+}
+
+.footer-img {
+
+
+	width: 80px;
+height: 40px
+
+}
