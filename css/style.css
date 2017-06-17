@@ -3,15 +3,16 @@ header {
 background-color: #52ab92;
 min-height: 130px;
 color:white;
-width: 1340px;
+max-width: auto;
 height: 200px;
+
 
 
 }
 
 .title_effect {
 
-font-family: Ubuntu;
+font-family: monospace;
 
 
 }
@@ -42,19 +43,25 @@ padding-top: 10px;
 
 }
 
+.logo {
+
+margin-bottom: 0px;
+
+}
+
 .edit-2 {
 
 background-color: #f6f6f6;
-min-height: 300px;
-width: 1340px;
-height: 200px;
+min-height: 230px;
+max-width: auto;
+height: 130px;
 
 }
 .edit-3 {
 
 background-color: white;
 min-height: 290px;
-width: 1340px;
+max-width: auto;
 height: 230px;
 
 }
@@ -62,7 +69,7 @@ height: 230px;
 
 background-color: grey;
 min-height: 150px;
-width: 1340px;
+max-width: auto;
 height: 150px;
 }
 
@@ -101,7 +108,7 @@ blockquote h4:before {
 content: "\201C";
 font-size: 80px;
 position: absolute;
-left: -20px;
+left: -180px;
 top: -20px;
 color: #7a7a7a;
    
@@ -111,16 +118,33 @@ blockquote h4:after {
 content: "\201D";
 font-size: 80px;
 position: relative;
-left: 65px;
+left: 140px;
 top: -20px;
 color: #7a7a7a;
 
+}
+
+.content_effect{
+
+
+	font-family: OpenSans;
+color:  #696969;
 }
 .edit-5 {
 
 
 
 	margin-top: 30px;
+}
+.nowrap {
+  white-space: nowrap ;
+  font-family: Ubuntu;
+color:  #797979;
+}
+.align{
+
+float:right;
+
 }
 
 .tasks {
@@ -133,10 +157,84 @@ height: 50px;
 
 }
 
+
+.footer-dim{
+
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
 .footer-img {
 
 
 	width: 80px;
 height: 40px
+
+}
+
+
+.form-control{
+
+
+	background-color:  #fafafa;
+}
+
+
+.red {
+
+border-radius: 5px;
+border-style: solid;
+border-width: 1px;
+border-color:  #dcdcdc;
+background-color:  #ffffff;
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.07);
+width: 350px;
+height: 200px;
+float:right;
+align-items: center;
+margin-top:0px;
+position: relative;
+bottom: 100px;
+padding-top: 7px;
+
+
+
+
+
+
+}
+
+
+.dime{
+
+
+
+	width: 320px;
+height: 30px;
+background-color:  #ef7126;
+font-family: Ubuntu;
+color:  #ffffff;
+font-size: 10px;/* Approximation due to font substitution */
+font-weight: 700;
+}
+
+.title_effect1 {
+
+
+
+	font-family: OpenSans;
+color:  #6c6c6c;
+font-size: 15px;/* Approximation due to font substitution */
+font-weight: 600;
+line-height: 19px;/* Approximation due to font substitution */
+
+transform: scaleX(1.001);/* width and height properties ommitted due to transform */
+}
+
+
+.label-color
+{
+
+color:  #a5a5a5;
 
 }
