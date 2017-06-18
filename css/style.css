@@ -1,14 +1,70 @@
+body {
+ 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+
 header {
 
 background-color: #52ab92;
-min-height: 130px;
+
 color:white;
-max-width: auto;
-height: 200px;
+height: 190px;
+max-width: 1360px;
+
+}
+
+.edit-1 {
+
+padding-top: 10px;
 
 
 
 }
+
+.edit-2 {
+
+background-color: #f6f6f6;
+min-height: 230px;
+
+height: 130px;
+
+max-width: 1360px;
+
+}
+
+.edit-3 {
+
+background-color: white;
+min-height: 290px;
+
+height: 230px;
+
+
+max-width: 1360px;
+}
+
+.edit-4{
+
+background-color: grey;
+min-height: 150px;
+
+height: 150px;
+
+max-width: 1360px;
+}
+footer {
+background-color: white;
+height: 50px;
+
+max-width: 1360px;
+
+}
+
+
 
 .title_effect {
 
@@ -35,13 +91,7 @@ padding: 10px;
 padding-left: 0px;
 
 }
-.edit-1 {
 
-padding-top: 10px;
-
-
-
-}
 
 .logo {
 
@@ -49,29 +99,8 @@ margin-bottom: 0px;
 
 }
 
-.edit-2 {
 
-background-color: #f6f6f6;
-min-height: 230px;
-max-width: auto;
-height: 130px;
 
-}
-.edit-3 {
-
-background-color: white;
-min-height: 290px;
-max-width: auto;
-height: 230px;
-
-}
-.edit-4{
-
-background-color: grey;
-min-height: 150px;
-max-width: auto;
-height: 150px;
-}
 
 
 
@@ -150,11 +179,6 @@ float:right;
 .tasks {
 
 	padding-top: 20px;
-}
-footer {
-background-color: white;
-height: 50px;
-
 }
 
 
