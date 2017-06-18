@@ -3,8 +3,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
         <title>Hiver</title>
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -14,30 +15,23 @@
 
         <script>
           function validateform(){
-
-var x = document.forms["myform"]["mail"].value;
-
-var y = document.forms["myform"]["lname"].value;
-
-if(x== "" || y=="" )
-
-{
-
-alert(" Field Should be Filled");  
-}
-else
-
-
-
-{
-
-alert("Login Detailed Submitted Successfully");
-
-          }
-
-
-}
-
+              var x = document.forms["myform"]["mail"].value;
+              var y = document.forms["myform"]["phone"].value;
+              var phoneno = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+              if(x== "" || y=="" ){
+                alert(" Field Should be Filled");
+              }
+              else{
+                alert("Login Detailed Submitted Successfully");
+              }
+              if(y.match(phoneno)) {
+                return true;
+              }
+              else {
+                alert("Invalid Phone number");
+                return false;
+              }
+            }
 
 
         </script>
@@ -47,14 +41,13 @@ alert("Login Detailed Submitted Successfully");
         <header>
             <div class="container edit-1">
                 <img src="img/logo.png" class="logo logo-1">
-              
+           
                 <p class="phone"><img src="img/call.png" class="logo"> <span> +91-703-893-4290</span></p>
 
-                
+                                    <div class="container">
                                   <h1 class="title_effect">Wow Your Customers </h1>
                                   <p class ="title_cite">with exceptional customer service.Try Hiver!</p>
-
-
+                                    </div>
                                   <div class=" container red">
                                   <form name="myform"  onsubmit="return validateform()" >
                                             <div class="form-group">
@@ -63,7 +56,7 @@ alert("Login Detailed Submitted Successfully");
                                             </div>
                                             <div class="form-group">
                                               <label  class="label-color"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> &nbsp;Enter phone</label>
-                                              <input type="number"  name="lname" class="form-control" id="exampleInputPassword1">
+                                              <input type="number"  name="phone" class="form-control" id="exampleInputPassword1">
                                             </div>
                                             
                                             <button type="submit" class="btn btn-default dime">GET STARTED FOR FREE</button>
@@ -78,6 +71,8 @@ alert("Login Detailed Submitted Successfully");
 
         <section class ="edit-2">
             <div class="container ">
+            <div class="row">
+            <div class="col-md-6">
                 <blockquote class="edit-5">
                 <div class="row">
                       <div class="col-md-4">
@@ -90,6 +85,8 @@ alert("Login Detailed Submitted Successfully");
                  </div>       
                    
                 </blockquote>
+                </div>
+                </div>
             </div>
         </section>
 
@@ -122,28 +119,39 @@ alert("Login Detailed Submitted Successfully");
         <section class ="edit-4">
             <div class="container logos">
                 <div class="row">
-                    <div class ="col-md-2"><img src= "img/logo_cbsi.png" class="logo"></div>
-                    <div class ="col-md-2"><img src= "img/logo_conservation.png" class="logo"></div>
-                    <div class ="col-md-2"><img src= "img/logo_lonelyplanet.png" class="logo"></div>
-                    <div class ="col-md-2"><img src= "img/logo_stemcell.png" class="logo"></div>
-                    <div class ="col-md-2"><img src= "img/logo_pinterest.png" class="logo"></div> 
-                    <div class ="col-md-2"><img src= "img/change.png" class="logo"></div>
+                    <div class ="col-md-2 brand_icon "><img src= "img/logo_cbsi.png" class="logo"></div>
+                    <div class ="col-md-2 brand_icon"><img src= "img/logo_conservation.png" class="logo"></div>
+                    <div class ="col-md-2 brand_icon"><img src= "img/logo_lonelyplanet.png" class="logo"></div>
+                    <div class ="col-md-2 brand_icon"><img src= "img/logo_stemcell.png" class="logo"></div>
+                    <div class ="col-md-2 brand_icon"><img src= "img/logo_pinterest.png" class="logo"></div> 
+                    <div class ="col-md-2 brand_icon"><img src= "img/change.png" class="logo"></div>
                 </div>
             </div>
         </section>
         <section>
             <footer>
             <div class="container footer-dim">
-              
-               <p>
+              <div class="row">
+               <div class="col-md-2">
                <span class="nowrap"><img src="img/logoblack.png"  ></span>
-      <span class="nowrap"> &nbsp; &nbsp;&nbsp;  &copy; 2017 Copyright Hiver. All Rights Reserved</span>
+
+               </div>
+
+               <div class="col-md-6 ">
+      <span class="nowrap  "> &nbsp; &nbsp;&nbsp;  &copy; 2017 Copyright Hiver. All Rights Reserved</span>
       <span class="nowrap"> &nbsp; |</span>
        <span class="nowrap"> &nbsp; Terms of Service</span>
        <span class="nowrap"> &nbsp; |</span>
        <span class="nowrap"> &nbsp; Privacy Policy</span>
-        <span class="nowrap align"> Simple,powerful collaboration with shared Gmail Labels</span>
-    </p>
+
+       </div>
+
+       <div class="col-md-4">
+        <span class="nowrap "> Simple,powerful collaboration with shared Gmail Labels</span>
+
+        </div>
+    
+           </div>
 
                </div>
             </footer>
