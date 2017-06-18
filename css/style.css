@@ -107,9 +107,6 @@ margin-bottom: 0px;
 
 
 
-
-
-
 .phone {
 
 
@@ -170,6 +167,7 @@ color: #7a7a7a;
 
 	font-family: OpenSans;
 color:  #696969;
+margin-bottom: 20px;
 }
 .edit-5 {
 
@@ -181,6 +179,12 @@ color:  #696969;
    .edit-5{
 
    	padding-top: 150px;
+   }
+}
+@media only screen and (max-width: 548px) {
+   .nowrap{
+
+   	
    }
 }
 @media only screen and (min-width: 1000px) {
