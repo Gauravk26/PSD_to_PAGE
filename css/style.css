@@ -165,7 +165,7 @@ font-size: 80px;
 position: absolute;
 left: -180px;
 top: -20px;
-color: #7a7a7a;
+color: #d3d3d3;
    
 } 
 blockquote h4:after { 
@@ -175,7 +175,7 @@ font-size: 80px;
 position: relative;
 left: 350px;
 top: -20px;
-color: #7a7a7a;
+color: #d3d3d3;
 
 }
 
@@ -335,4 +335,6 @@ color:  #a5a5a5;
 margin-top: 40px;
 font-size: 11px;
 padding-left: 0px !important;
+position: relative;
+left :-17px;
 }
